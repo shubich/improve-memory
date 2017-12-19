@@ -12,12 +12,14 @@ import styles from '../styles/style';
 export default class Letters extends React.Component {
   constructor(props) {
     super(props);
-    this.start();
+
+    if (!this.props.win) { this.start(); }
+
     this.state = { ...this.props.stopwatch };
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.win) {
+    if (nextProps.win && nextProps.win !== this.props.win) {
       Alert.alert('You won!');
       clearTimeout(this.timer);
     }
