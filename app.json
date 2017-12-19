@@ -1,5 +1,18 @@
 {
   "expo": {
-    "sdkVersion": "22.0.0"
+    "name": "Improve-Memory",
+    "slug": "Improve-Memory",
+    "icon": "./icon.png",
+    "loading": {
+      "icon": "./icon.png"
+    },
+    "privacy": "unlisted",
+    "sdkVersion": "22.0.0",
+    "ios": {
+      "bundleIdentifier": "com.shubich.memory"
+    },
+    "android": {
+      "package": "com.shubich.memory"
+    }
   }
 }

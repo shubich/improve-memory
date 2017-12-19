@@ -1,12 +1,12 @@
 # improve-memory
 React Native App
 
-## start
+## How to run it
     npm install
     npm start
     
-## screenshots
-![start](/screenshots/1.start.png)
-![game](/screenshots/2.game.png)
-![pause](/screenshots/3.pause.png)
-![win](/screenshots/4.win.png)
+## Demo
+![gameplay](/demo.gif)
+
+## Try it out
+Try it with Expo: https://expo.io/@driver458/Improve-Memory
